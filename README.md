@@ -16,8 +16,32 @@ yarn add react-router-dom
 
 ```
 
-## How to create a nav?
+## How to crete pages?
 
 - Create 3 Custom components : Home, About, Stuff
 
-## How to crete pages?
+## How do I use the Router?
+
+Wrap entire App with is.
+
+```js
+<Router>
+	<div className="App">
+		<Home />
+		<About />
+		<Stuff />
+	</div>
+</Router>
+```
+
+## How to create a nav?
+
+```js
+
+```
+
+## How do I show one page at a time?
+
+```js
+
+```
