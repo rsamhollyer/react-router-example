@@ -3,6 +3,7 @@ import About from "./Components/About";
 import Home from "./Components/Home";
 import Stuff from "./Components/Stuff";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import axios from "axios";
 
 function App() {
 	return (
